@@ -2,10 +2,10 @@
   <library name="jacoco">
     <CLASSES>
       <root url="jar://$PROJECT_DIR$/lib/jacoco/org.jacoco.core-0.6.0.201210061924.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jacoco/org.jacoco.ant-0.6.0.201210061924.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jacoco/org.jacoco.report-0.6.0.201210061924.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jacoco/org.jacoco.agent-0.6.0.201210061924.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jacoco/jacocoagent.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/jacoco/org.jacoco.ant-0.6.0.201210061924.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/jacoco/jacocoant.jar!/" />
     </CLASSES>
     <JAVADOC />

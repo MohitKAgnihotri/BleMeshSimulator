@@ -1,12 +1,12 @@
 <component name="libraryTable">
   <library name="src">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/src/axceldatareader-src.jar!/" />
-      <root url="jar://$PROJECT_DIR$/lib/src/xerbla-src.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/src/blas-src.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/src/xerbla-src.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/src/f2jutil-src.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/src/lapack-src.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/src/jmatio-src.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/src/axceldatareader-src.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
