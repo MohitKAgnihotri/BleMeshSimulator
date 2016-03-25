@@ -1,0 +1,2274 @@
+{
+  "size" : 25,
+  "Graph" : [ {
+    "devUniqueId" : 16,
+    "devAdd" : 16,
+    "devLocX" : 18.828960876163606,
+    "devLocY" : 8.37490024100801,
+    "packetsRec" : 2,
+    "bridgeCnt" : 0,
+    "isDeviceCritical" : false,
+    "neighbours" : [ {
+      "devUniqueId" : 15,
+      "devAdd" : 15,
+      "devLocX" : 16.19690232511233,
+      "devLocY" : 16.19690232511233,
+      "linkColor" : 3,
+      "distance" : 5.416427486730671
+    }, {
+      "devUniqueId" : 20,
+      "devAdd" : 20,
+      "devLocX" : 12.080342010465374,
+      "devLocY" : 12.080342010465374,
+      "linkColor" : 3,
+      "distance" : 7.6118518139247024
+    }, {
+      "devUniqueId" : 11,
+      "devAdd" : 11,
+      "devLocX" : 24.973476393568017,
+      "devLocY" : 24.973476393568017,
+      "linkColor" : 3,
+      "distance" : 9.004431927918239
+    }, {
+      "devUniqueId" : 9,
+      "devAdd" : 9,
+      "devLocX" : 20.375039044949045,
+      "devLocY" : 20.375039044949045,
+      "linkColor" : 3,
+      "distance" : 7.181102023929999
+    }, {
+      "devUniqueId" : 25,
+      "devAdd" : 25,
+      "devLocX" : 14.913563932930682,
+      "devLocY" : 14.913563932930682,
+      "linkColor" : 1,
+      "distance" : 4.14840095452327
+    }, {
+      "devUniqueId" : 24,
+      "devAdd" : 24,
+      "devLocX" : 25.408560091976256,
+      "devLocY" : 25.408560091976256,
+      "linkColor" : 5,
+      "distance" : 6.625279576626295
+    }, {
+      "devUniqueId" : 21,
+      "devAdd" : 21,
+      "devLocX" : 13.58670414088477,
+      "devLocY" : 13.58670414088477,
+      "linkColor" : 4,
+      "distance" : 8.721610422347593
+    }, {
+      "devUniqueId" : 2,
+      "devAdd" : 2,
+      "devLocX" : 21.521181623278906,
+      "devLocY" : 21.521181623278906,
+      "linkColor" : 3,
+      "distance" : 4.574851111444816
+    }, {
+      "devUniqueId" : 13,
+      "devAdd" : 13,
+      "devLocX" : 17.232204204706285,
+      "devLocY" : 17.232204204706285,
+      "linkColor" : 3,
+      "distance" : 3.008193171599745
+    }, {
+      "devUniqueId" : 7,
+      "devAdd" : 7,
+      "devLocX" : 25.846371896248797,
+      "devLocY" : 25.846371896248797,
+      "linkColor" : 3,
+      "distance" : 9.853678880808644
+    }, {
+      "devUniqueId" : 6,
+      "devAdd" : 6,
+      "devLocX" : 19.952228486442515,
+      "devLocY" : 19.952228486442515,
+      "linkColor" : 3,
+      "distance" : 5.2436847975756065
+    }, {
+      "devUniqueId" : 0,
+      "devAdd" : 0,
+      "devLocX" : 22.456443738183147,
+      "devLocY" : 22.456443738183147,
+      "linkColor" : 3,
+      "distance" : 6.065999014031768
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 25,
+      "picMasterAdd" : 25,
+      "slaves" : [ {
+        "slaveUniqId" : 16,
+        "slaveAdd" : 16
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 14,
+    "devAdd" : 14,
+    "devLocX" : 28.735383721533523,
+    "devLocY" : 10.952191780567716,
+    "packetsRec" : 0,
+    "bridgeCnt" : 0,
+    "isDeviceCritical" : true,
+    "neighbours" : [ {
+      "devUniqueId" : 11,
+      "devAdd" : 11,
+      "devLocX" : 24.973476393568017,
+      "devLocY" : 24.973476393568017,
+      "linkColor" : 3,
+      "distance" : 9.901886211291778
+    }, {
+      "devUniqueId" : 9,
+      "devAdd" : 9,
+      "devLocX" : 20.375039044949045,
+      "devLocY" : 20.375039044949045,
+      "linkColor" : 3,
+      "distance" : 9.464045259881749
+    }, {
+      "devUniqueId" : 24,
+      "devAdd" : 24,
+      "devLocX" : 25.408560091976256,
+      "devLocY" : 25.408560091976256,
+      "linkColor" : 1,
+      "distance" : 4.724061684082305
+    }, {
+      "devUniqueId" : 2,
+      "devAdd" : 2,
+      "devLocX" : 21.521181623278906,
+      "devLocY" : 21.521181623278906,
+      "linkColor" : 3,
+      "distance" : 9.562122538110978
+    }, {
+      "devUniqueId" : 7,
+      "devAdd" : 7,
+      "devLocX" : 25.846371896248797,
+      "devLocY" : 25.846371896248797,
+      "linkColor" : 3,
+      "distance" : 5.213755754348655
+    }, {
+      "devUniqueId" : 0,
+      "devAdd" : 0,
+      "devLocX" : 22.456443738183147,
+      "devLocY" : 22.456443738183147,
+      "linkColor" : 3,
+      "distance" : 6.681643077129852
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 24,
+      "picMasterAdd" : 24,
+      "slaves" : [ {
+        "slaveUniqId" : 14,
+        "slaveAdd" : 14
+      } ]
+    }, {
+      "picMasterId" : 2,
+      "picMasterAdd" : 2,
+      "slaves" : [ {
+        "slaveUniqId" : 14,
+        "slaveAdd" : 14
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 5,
+    "devAdd" : 5,
+    "devLocX" : 5.737740838998995,
+    "devLocY" : 15.933796222102501,
+    "packetsRec" : 2,
+    "bridgeCnt" : 0,
+    "isDeviceCritical" : true,
+    "neighbours" : [ {
+      "devUniqueId" : 20,
+      "devAdd" : 20,
+      "devLocX" : 12.080342010465374,
+      "devLocY" : 12.080342010465374,
+      "linkColor" : 3,
+      "distance" : 7.518932861959327
+    }, {
+      "devUniqueId" : 18,
+      "devAdd" : 18,
+      "devLocX" : 10.8676046260492,
+      "devLocY" : 10.8676046260492,
+      "linkColor" : 3,
+      "distance" : 6.766371855442695
+    }, {
+      "devUniqueId" : 12,
+      "devAdd" : 12,
+      "devLocX" : 0.14856160617945147,
+      "devLocY" : 0.14856160617945147,
+      "linkColor" : 3,
+      "distance" : 7.080028954084942
+    }, {
+      "devUniqueId" : 19,
+      "devAdd" : 19,
+      "devLocX" : 13.279531674490283,
+      "devLocY" : 13.279531674490283,
+      "linkColor" : 3,
+      "distance" : 9.048471705645085
+    }, {
+      "devUniqueId" : 8,
+      "devAdd" : 8,
+      "devLocX" : 7.773681627519238,
+      "devLocY" : 7.773681627519238,
+      "linkColor" : 3,
+      "distance" : 2.055213174953851
+    }, {
+      "devUniqueId" : 23,
+      "devAdd" : 23,
+      "devLocX" : 2.7887912737614067,
+      "devLocY" : 2.7887912737614067,
+      "linkColor" : 1,
+      "distance" : 4.012513182571768
+    }, {
+      "devUniqueId" : 22,
+      "devAdd" : 22,
+      "devLocX" : 5.431968742419734,
+      "devLocY" : 5.431968742419734,
+      "linkColor" : 3,
+      "distance" : 2.2716356375072637
+    }, {
+      "devUniqueId" : 21,
+      "devAdd" : 21,
+      "devLocX" : 13.58670414088477,
+      "devLocY" : 13.58670414088477,
+      "linkColor" : 4,
+      "distance" : 7.871001043517214
+    }, {
+      "devUniqueId" : 10,
+      "devAdd" : 10,
+      "devLocX" : 9.547714088685943,
+      "devLocY" : 9.547714088685943,
+      "linkColor" : 3,
+      "distance" : 8.726210744255873
+    }, {
+      "devUniqueId" : 17,
+      "devAdd" : 17,
+      "devLocX" : 6.064082155578832,
+      "devLocY" : 6.064082155578832,
+      "linkColor" : 3,
+      "distance" : 5.463977521645248
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 23,
+      "picMasterAdd" : 23,
+      "slaves" : [ {
+        "slaveUniqId" : 5,
+        "slaveAdd" : 5
+      } ]
+    }, {
+      "picMasterId" : 5,
+      "picMasterAdd" : 5,
+      "slaves" : [ {
+        "slaveUniqId" : 18,
+        "slaveAdd" : 18
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 15,
+    "devAdd" : 15,
+    "devLocX" : 16.19690232511233,
+    "devLocY" : 13.108815586982143,
+    "packetsRec" : 2,
+    "bridgeCnt" : 0,
+    "isDeviceCritical" : false,
+    "neighbours" : [ {
+      "devUniqueId" : 16,
+      "devAdd" : 16,
+      "devLocX" : 18.828960876163606,
+      "devLocY" : 18.828960876163606,
+      "linkColor" : 3,
+      "distance" : 5.416427486730671
+    }, {
+      "devUniqueId" : 20,
+      "devAdd" : 20,
+      "devLocX" : 12.080342010465374,
+      "devLocY" : 12.080342010465374,
+      "linkColor" : 3,
+      "distance" : 4.291570838390597
+    }, {
+      "devUniqueId" : 18,
+      "devAdd" : 18,
+      "devLocX" : 10.8676046260492,
+      "devLocY" : 10.8676046260492,
+      "linkColor" : 3,
+      "distance" : 8.987740072948347
+    }, {
+      "devUniqueId" : 9,
+      "devAdd" : 9,
+      "devLocX" : 20.375039044949045,
+      "devLocY" : 20.375039044949045,
+      "linkColor" : 3,
+      "distance" : 4.759165454254076
+    }, {
+      "devUniqueId" : 25,
+      "devAdd" : 25,
+      "devLocX" : 14.913563932930682,
+      "devLocY" : 14.913563932930682,
+      "linkColor" : 1,
+      "distance" : 3.5997196599240313
+    }, {
+      "devUniqueId" : 19,
+      "devAdd" : 19,
+      "devLocX" : 13.279531674490283,
+      "devLocY" : 13.279531674490283,
+      "linkColor" : 3,
+      "distance" : 8.350776923011358
+    }, {
+      "devUniqueId" : 8,
+      "devAdd" : 8,
+      "devLocX" : 7.773681627519238,
+      "devLocY" : 7.773681627519238,
+      "linkColor" : 3,
+      "distance" : 8.977555034292804
+    }, {
+      "devUniqueId" : 21,
+      "devAdd" : 21,
+      "devLocX" : 13.58670414088477,
+      "devLocY" : 13.58670414088477,
+      "linkColor" : 4,
+      "distance" : 3.4372371460242377
+    }, {
+      "devUniqueId" : 2,
+      "devAdd" : 2,
+      "devLocX" : 21.521181623278906,
+      "devLocY" : 21.521181623278906,
+      "linkColor" : 3,
+      "distance" : 9.972905312663123
+    }, {
+      "devUniqueId" : 13,
+      "devAdd" : 13,
+      "devLocX" : 17.232204204706285,
+      "devLocY" : 17.232204204706285,
+      "linkColor" : 3,
+      "distance" : 2.4174005422924933
+    }, {
+      "devUniqueId" : 7,
+      "devAdd" : 7,
+      "devLocX" : 25.846371896248797,
+      "devLocY" : 25.846371896248797,
+      "linkColor" : 3,
+      "distance" : 9.893433598592717
+    }, {
+      "devUniqueId" : 1,
+      "devAdd" : 1,
+      "devLocX" : 15.723679818253292,
+      "devLocY" : 15.723679818253292,
+      "linkColor" : 3,
+      "distance" : 9.113809819267201
+    }, {
+      "devUniqueId" : 0,
+      "devAdd" : 0,
+      "devLocX" : 22.456443738183147,
+      "devLocY" : 22.456443738183147,
+      "linkColor" : 3,
+      "distance" : 6.260848929006023
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 25,
+      "picMasterAdd" : 25,
+      "slaves" : [ {
+        "slaveUniqId" : 15,
+        "slaveAdd" : 15
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 20,
+    "devAdd" : 20,
+    "devLocX" : 12.080342010465374,
+    "devLocY" : 11.895756875790333,
+    "packetsRec" : 10,
+    "bridgeCnt" : 0,
+    "isDeviceCritical" : true,
+    "neighbours" : [ {
+      "devUniqueId" : 16,
+      "devAdd" : 16,
+      "devLocX" : 18.828960876163606,
+      "devLocY" : 18.828960876163606,
+      "linkColor" : 3,
+      "distance" : 7.6118518139247024
+    }, {
+      "devUniqueId" : 5,
+      "devAdd" : 5,
+      "devLocX" : 5.737740838998995,
+      "devLocY" : 5.737740838998995,
+      "linkColor" : 3,
+      "distance" : 7.518932861959327
+    }, {
+      "devUniqueId" : 15,
+      "devAdd" : 15,
+      "devLocX" : 16.19690232511233,
+      "devLocY" : 16.19690232511233,
+      "linkColor" : 3,
+      "distance" : 4.291570838390597
+    }, {
+      "devUniqueId" : 18,
+      "devAdd" : 18,
+      "devLocX" : 10.8676046260492,
+      "devLocY" : 10.8676046260492,
+      "linkColor" : 3,
+      "distance" : 8.536906034385757
+    }, {
+      "devUniqueId" : 9,
+      "devAdd" : 9,
+      "devLocX" : 20.375039044949045,
+      "devLocY" : 20.375039044949045,
+      "linkColor" : 3,
+      "distance" : 8.999717929743767
+    }, {
+      "devUniqueId" : 25,
+      "devAdd" : 25,
+      "devLocX" : 14.913563932930682,
+      "devLocY" : 14.913563932930682,
+      "linkColor" : 1,
+      "distance" : 3.5567114671787325
+    }, {
+      "devUniqueId" : 19,
+      "devAdd" : 19,
+      "devLocX" : 13.279531674490283,
+      "devLocY" : 13.279531674490283,
+      "linkColor" : 3,
+      "distance" : 9.116874379487301
+    }, {
+      "devUniqueId" : 8,
+      "devAdd" : 8,
+      "devLocX" : 7.773681627519238,
+      "devLocY" : 7.773681627519238,
+      "linkColor" : 3,
+      "distance" : 6.0991524792319165
+    }, {
+      "devUniqueId" : 23,
+      "devAdd" : 23,
+      "devLocX" : 2.7887912737614067,
+      "devLocY" : 2.7887912737614067,
+      "linkColor" : 2,
+      "distance" : 9.384425973864886
+    }, {
+      "devUniqueId" : 22,
+      "devAdd" : 22,
+      "devLocX" : 5.431968742419734,
+      "devLocY" : 5.431968742419734,
+      "linkColor" : 3,
+      "distance" : 9.151634310148609
+    }, {
+      "devUniqueId" : 21,
+      "devAdd" : 21,
+      "devLocX" : 13.58670414088477,
+      "devLocY" : 13.58670414088477,
+      "linkColor" : 5,
+      "distance" : 3.7640219077138464
+    }, {
+      "devUniqueId" : 13,
+      "devAdd" : 13,
+      "devLocX" : 17.232204204706285,
+      "devLocY" : 17.232204204706285,
+      "linkColor" : 3,
+      "distance" : 5.24264755705978
+    }, {
+      "devUniqueId" : 4,
+      "devAdd" : 4,
+      "devLocX" : 8.624223152130986,
+      "devLocY" : 8.624223152130986,
+      "linkColor" : 3,
+      "distance" : 7.606865561082337
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 25,
+      "picMasterAdd" : 25,
+      "slaves" : [ {
+        "slaveUniqId" : 20,
+        "slaveAdd" : 20
+      } ]
+    }, {
+      "picMasterId" : 20,
+      "picMasterAdd" : 20,
+      "slaves" : [ {
+        "slaveUniqId" : 22,
+        "slaveAdd" : 22
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 18,
+    "devAdd" : 18,
+    "devLocX" : 10.8676046260492,
+    "devLocY" : 20.34608424674889,
+    "packetsRec" : 2,
+    "bridgeCnt" : 0,
+    "isDeviceCritical" : true,
+    "neighbours" : [ {
+      "devUniqueId" : 5,
+      "devAdd" : 5,
+      "devLocX" : 5.737740838998995,
+      "devLocY" : 5.737740838998995,
+      "linkColor" : 3,
+      "distance" : 6.766371855442695
+    }, {
+      "devUniqueId" : 15,
+      "devAdd" : 15,
+      "devLocX" : 16.19690232511233,
+      "devLocY" : 16.19690232511233,
+      "linkColor" : 3,
+      "distance" : 8.987740072948347
+    }, {
+      "devUniqueId" : 20,
+      "devAdd" : 20,
+      "devLocX" : 12.080342010465374,
+      "devLocY" : 12.080342010465374,
+      "linkColor" : 3,
+      "distance" : 8.536906034385757
+    }, {
+      "devUniqueId" : 19,
+      "devAdd" : 19,
+      "devLocX" : 13.279531674490283,
+      "devLocY" : 13.279531674490283,
+      "linkColor" : 3,
+      "distance" : 2.4824090284908378
+    }, {
+      "devUniqueId" : 8,
+      "devAdd" : 8,
+      "devLocX" : 7.773681627519238,
+      "devLocY" : 7.773681627519238,
+      "linkColor" : 3,
+      "distance" : 5.161548919254572
+    }, {
+      "devUniqueId" : 22,
+      "devAdd" : 22,
+      "devLocX" : 5.431968742419734,
+      "devLocY" : 5.431968742419734,
+      "linkColor" : 3,
+      "distance" : 5.849569706698422
+    }, {
+      "devUniqueId" : 21,
+      "devAdd" : 21,
+      "devLocX" : 13.58670414088477,
+      "devLocY" : 13.58670414088477,
+      "linkColor" : 1,
+      "distance" : 5.692296106888384
+    }, {
+      "devUniqueId" : 1,
+      "devAdd" : 1,
+      "devLocX" : 15.723679818253292,
+      "devLocY" : 15.723679818253292,
+      "linkColor" : 3,
+      "distance" : 5.201623177138483
+    }, {
+      "devUniqueId" : 10,
+      "devAdd" : 10,
+      "devLocX" : 9.547714088685943,
+      "devLocY" : 9.547714088685943,
+      "linkColor" : 3,
+      "distance" : 3.682884046677601
+    }, {
+      "devUniqueId" : 17,
+      "devAdd" : 17,
+      "devLocX" : 6.064082155578832,
+      "devLocY" : 6.064082155578832,
+      "linkColor" : 3,
+      "distance" : 4.915227077404317
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 21,
+      "picMasterAdd" : 21,
+      "slaves" : [ {
+        "slaveUniqId" : 18,
+        "slaveAdd" : 18
+      } ]
+    }, {
+      "picMasterId" : 5,
+      "picMasterAdd" : 5,
+      "slaves" : [ {
+        "slaveUniqId" : 18,
+        "slaveAdd" : 18
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 11,
+    "devAdd" : 11,
+    "devLocX" : 24.973476393568017,
+    "devLocY" : 1.7927483587669313,
+    "packetsRec" : 10,
+    "bridgeCnt" : 0,
+    "isDeviceCritical" : false,
+    "neighbours" : [ {
+      "devUniqueId" : 16,
+      "devAdd" : 16,
+      "devLocX" : 18.828960876163606,
+      "devLocY" : 18.828960876163606,
+      "linkColor" : 3,
+      "distance" : 9.004431927918239
+    }, {
+      "devUniqueId" : 14,
+      "devAdd" : 14,
+      "devLocX" : 28.735383721533523,
+      "devLocY" : 28.735383721533523,
+      "linkColor" : 3,
+      "distance" : 9.901886211291778
+    }, {
+      "devUniqueId" : 24,
+      "devAdd" : 24,
+      "devLocX" : 25.408560091976256,
+      "devLocY" : 25.408560091976256,
+      "linkColor" : 1,
+      "distance" : 5.821770551158043
+    }, {
+      "devUniqueId" : 2,
+      "devAdd" : 2,
+      "devLocX" : 21.521181623278906,
+      "devLocY" : 21.521181623278906,
+      "linkColor" : 3,
+      "distance" : 4.497998233944152
+    }, {
+      "devUniqueId" : 6,
+      "devAdd" : 6,
+      "devLocX" : 19.952228486442515,
+      "devLocY" : 19.952228486442515,
+      "linkColor" : 3,
+      "distance" : 5.229252670967645
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 24,
+      "picMasterAdd" : 24,
+      "slaves" : [ {
+        "slaveUniqId" : 11,
+        "slaveAdd" : 11
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 12,
+    "devAdd" : 12,
+    "devLocX" : 0.14856160617945147,
+    "devLocY" : 20.279815722070243,
+    "packetsRec" : 2,
+    "bridgeCnt" : 0,
+    "isDeviceCritical" : false,
+    "neighbours" : [ {
+      "devUniqueId" : 5,
+      "devAdd" : 5,
+      "devLocX" : 5.737740838998995,
+      "devLocY" : 5.737740838998995,
+      "linkColor" : 3,
+      "distance" : 7.080028954084942
+    }, {
+      "devUniqueId" : 8,
+      "devAdd" : 8,
+      "devLocX" : 7.773681627519238,
+      "devLocY" : 7.773681627519238,
+      "linkColor" : 3,
+      "distance" : 8.641093611214716
+    }, {
+      "devUniqueId" : 23,
+      "devAdd" : 23,
+      "devLocX" : 2.7887912737614067,
+      "devLocY" : 2.7887912737614067,
+      "linkColor" : 1,
+      "distance" : 7.544129007884264
+    }, {
+      "devUniqueId" : 22,
+      "devAdd" : 22,
+      "devLocX" : 5.431968742419734,
+      "devLocY" : 5.431968742419734,
+      "linkColor" : 3,
+      "distance" : 5.683630447410018
+    }, {
+      "devUniqueId" : 17,
+      "devAdd" : 17,
+      "devLocX" : 6.064082155578832,
+      "devLocY" : 6.064082155578832,
+      "linkColor" : 3,
+      "distance" : 6.01842994572636
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 23,
+      "picMasterAdd" : 23,
+      "slaves" : [ {
+        "slaveUniqId" : 12,
+        "slaveAdd" : 12
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 9,
+    "devAdd" : 9,
+    "devLocX" : 20.375039044949045,
+    "devLocY" : 15.38759363043383,
+    "packetsRec" : 9,
+    "bridgeCnt" : 0,
+    "isDeviceCritical" : true,
+    "neighbours" : [ {
+      "devUniqueId" : 16,
+      "devAdd" : 16,
+      "devLocX" : 18.828960876163606,
+      "devLocY" : 18.828960876163606,
+      "linkColor" : 3,
+      "distance" : 7.181102023929999
+    }, {
+      "devUniqueId" : 14,
+      "devAdd" : 14,
+      "devLocX" : 28.735383721533523,
+      "devLocY" : 28.735383721533523,
+      "linkColor" : 3,
+      "distance" : 9.464045259881749
+    }, {
+      "devUniqueId" : 15,
+      "devAdd" : 15,
+      "devLocX" : 16.19690232511233,
+      "devLocY" : 16.19690232511233,
+      "linkColor" : 3,
+      "distance" : 4.759165454254076
+    }, {
+      "devUniqueId" : 20,
+      "devAdd" : 20,
+      "devLocX" : 12.080342010465374,
+      "devLocY" : 12.080342010465374,
+      "linkColor" : 3,
+      "distance" : 8.999717929743767
+    }, {
+      "devUniqueId" : 25,
+      "devAdd" : 25,
+      "devLocX" : 14.913563932930682,
+      "devLocY" : 14.913563932930682,
+      "linkColor" : 4,
+      "distance" : 7.852354780328568
+    }, {
+      "devUniqueId" : 19,
+      "devAdd" : 19,
+      "devLocX" : 13.279531674490283,
+      "devLocY" : 13.279531674490283,
+      "linkColor" : 3,
+      "distance" : 9.005687509158504
+    }, {
+      "devUniqueId" : 24,
+      "devAdd" : 24,
+      "devLocX" : 25.408560091976256,
+      "devLocY" : 25.408560091976256,
+      "linkColor" : 1,
+      "distance" : 9.274178624639958
+    }, {
+      "devUniqueId" : 21,
+      "devAdd" : 21,
+      "devLocX" : 13.58670414088477,
+      "devLocY" : 13.58670414088477,
+      "linkColor" : 4,
+      "distance" : 6.788467209424305
+    }, {
+      "devUniqueId" : 13,
+      "devAdd" : 13,
+      "devLocX" : 17.232204204706285,
+      "devLocY" : 17.232204204706285,
+      "linkColor" : 3,
+      "distance" : 5.45876627335916
+    }, {
+      "devUniqueId" : 7,
+      "devAdd" : 7,
+      "devLocX" : 25.846371896248797,
+      "devLocY" : 25.846371896248797,
+      "linkColor" : 3,
+      "distance" : 5.472162005333273
+    }, {
+      "devUniqueId" : 1,
+      "devAdd" : 1,
+      "devLocX" : 15.723679818253292,
+      "devLocY" : 15.723679818253292,
+      "linkColor" : 3,
+      "distance" : 8.257414435992162
+    }, {
+      "devUniqueId" : 0,
+      "devAdd" : 0,
+      "devLocX" : 22.456443738183147,
+      "devLocY" : 22.456443738183147,
+      "linkColor" : 3,
+      "distance" : 2.9930447259233484
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 24,
+      "picMasterAdd" : 24,
+      "slaves" : [ {
+        "slaveUniqId" : 9,
+        "slaveAdd" : 9
+      } ]
+    }, {
+      "picMasterId" : 9,
+      "picMasterAdd" : 9,
+      "slaves" : [ {
+        "slaveUniqId" : 19,
+        "slaveAdd" : 19
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 25,
+    "devAdd" : 25,
+    "devLocX" : 14.913563932930682,
+    "devLocY" : 9.745628972891838,
+    "packetsRec" : 2,
+    "bridgeCnt" : 0,
+    "isDeviceCritical" : true,
+    "neighbours" : [ {
+      "devUniqueId" : 16,
+      "devAdd" : 16,
+      "devLocX" : 18.828960876163606,
+      "devLocY" : 18.828960876163606,
+      "linkColor" : 1,
+      "distance" : 4.14840095452327
+    }, {
+      "devUniqueId" : 15,
+      "devAdd" : 15,
+      "devLocX" : 16.19690232511233,
+      "devLocY" : 16.19690232511233,
+      "linkColor" : 1,
+      "distance" : 3.5997196599240313
+    }, {
+      "devUniqueId" : 20,
+      "devAdd" : 20,
+      "devLocX" : 12.080342010465374,
+      "devLocY" : 12.080342010465374,
+      "linkColor" : 1,
+      "distance" : 3.5567114671787325
+    }, {
+      "devUniqueId" : 9,
+      "devAdd" : 9,
+      "devLocX" : 20.375039044949045,
+      "devLocY" : 20.375039044949045,
+      "linkColor" : 4,
+      "distance" : 7.852354780328568
+    }, {
+      "devUniqueId" : 8,
+      "devAdd" : 8,
+      "devLocX" : 7.773681627519238,
+      "devLocY" : 7.773681627519238,
+      "linkColor" : 4,
+      "distance" : 9.634594060018802
+    }, {
+      "devUniqueId" : 21,
+      "devAdd" : 21,
+      "devLocX" : 13.58670414088477,
+      "devLocY" : 13.58670414088477,
+      "linkColor" : 5,
+      "distance" : 5.754639543103188
+    }, {
+      "devUniqueId" : 2,
+      "devAdd" : 2,
+      "devLocX" : 21.521181623278906,
+      "devLocY" : 21.521181623278906,
+      "linkColor" : 1,
+      "distance" : 8.328316437143485
+    }, {
+      "devUniqueId" : 13,
+      "devAdd" : 13,
+      "devLocX" : 17.232204204706285,
+      "devLocY" : 17.232204204706285,
+      "linkColor" : 4,
+      "distance" : 2.601043989531262
+    }, {
+      "devUniqueId" : 6,
+      "devAdd" : 6,
+      "devLocX" : 19.952228486442515,
+      "devLocY" : 19.952228486442515,
+      "linkColor" : 1,
+      "distance" : 8.218465810059296
+    }, {
+      "devUniqueId" : 0,
+      "devAdd" : 0,
+      "devLocX" : 22.456443738183147,
+      "devLocY" : 22.456443738183147,
+      "linkColor" : 4,
+      "distance" : 8.31162164953696
+    }, {
+      "devUniqueId" : 4,
+      "devAdd" : 4,
+      "devLocX" : 8.624223152130986,
+      "devLocY" : 8.624223152130986,
+      "linkColor" : 1,
+      "distance" : 7.807575457367805
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 25,
+      "picMasterAdd" : 25,
+      "slaves" : [ {
+        "slaveUniqId" : 16,
+        "slaveAdd" : 16
+      }, {
+        "slaveUniqId" : 15,
+        "slaveAdd" : 15
+      }, {
+        "slaveUniqId" : 20,
+        "slaveAdd" : 20
+      }, {
+        "slaveUniqId" : 2,
+        "slaveAdd" : 2
+      }, {
+        "slaveUniqId" : 6,
+        "slaveAdd" : 6
+      }, {
+        "slaveUniqId" : 4,
+        "slaveAdd" : 4
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 19,
+    "devAdd" : 19,
+    "devLocX" : 13.279531674490283,
+    "devLocY" : 20.933419328053517,
+    "packetsRec" : 10,
+    "bridgeCnt" : 0,
+    "isDeviceCritical" : true,
+    "neighbours" : [ {
+      "devUniqueId" : 5,
+      "devAdd" : 5,
+      "devLocX" : 5.737740838998995,
+      "devLocY" : 5.737740838998995,
+      "linkColor" : 3,
+      "distance" : 9.048471705645085
+    }, {
+      "devUniqueId" : 15,
+      "devAdd" : 15,
+      "devLocX" : 16.19690232511233,
+      "devLocY" : 16.19690232511233,
+      "linkColor" : 3,
+      "distance" : 8.350776923011358
+    }, {
+      "devUniqueId" : 20,
+      "devAdd" : 20,
+      "devLocX" : 12.080342010465374,
+      "devLocY" : 12.080342010465374,
+      "linkColor" : 3,
+      "distance" : 9.116874379487301
+    }, {
+      "devUniqueId" : 18,
+      "devAdd" : 18,
+      "devLocX" : 10.8676046260492,
+      "devLocY" : 10.8676046260492,
+      "linkColor" : 3,
+      "distance" : 2.4824090284908378
+    }, {
+      "devUniqueId" : 9,
+      "devAdd" : 9,
+      "devLocX" : 20.375039044949045,
+      "devLocY" : 20.375039044949045,
+      "linkColor" : 3,
+      "distance" : 9.005687509158504
+    }, {
+      "devUniqueId" : 8,
+      "devAdd" : 8,
+      "devLocX" : 7.773681627519238,
+      "devLocY" : 7.773681627519238,
+      "linkColor" : 3,
+      "distance" : 7.251325090382611
+    }, {
+      "devUniqueId" : 22,
+      "devAdd" : 22,
+      "devLocX" : 5.431968742419734,
+      "devLocY" : 5.431968742419734,
+      "linkColor" : 3,
+      "distance" : 8.315009287048024
+    }, {
+      "devUniqueId" : 21,
+      "devAdd" : 21,
+      "devLocX" : 13.58670414088477,
+      "devLocY" : 13.58670414088477,
+      "linkColor" : 1,
+      "distance" : 5.596644240778277
+    }, {
+      "devUniqueId" : 1,
+      "devAdd" : 1,
+      "devLocX" : 15.723679818253292,
+      "devLocY" : 15.723679818253292,
+      "linkColor" : 3,
+      "distance" : 2.7576012326189727
+    }, {
+      "devUniqueId" : 10,
+      "devAdd" : 10,
+      "devLocX" : 9.547714088685943,
+      "devLocY" : 9.547714088685943,
+      "linkColor" : 3,
+      "distance" : 4.696184181909551
+    }, {
+      "devUniqueId" : 17,
+      "devAdd" : 17,
+      "devLocX" : 6.064082155578832,
+      "devLocY" : 6.064082155578832,
+      "linkColor" : 3,
+      "distance" : 7.229756087705185
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 21,
+      "picMasterAdd" : 21,
+      "slaves" : [ {
+        "slaveUniqId" : 19,
+        "slaveAdd" : 19
+      } ]
+    }, {
+      "picMasterId" : 9,
+      "picMasterAdd" : 9,
+      "slaves" : [ {
+        "slaveUniqId" : 19,
+        "slaveAdd" : 19
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 8,
+    "devAdd" : 8,
+    "devLocX" : 7.773681627519238,
+    "devLocY" : 16.214592055660372,
+    "packetsRec" : 10,
+    "bridgeCnt" : 0,
+    "isDeviceCritical" : false,
+    "neighbours" : [ {
+      "devUniqueId" : 5,
+      "devAdd" : 5,
+      "devLocX" : 5.737740838998995,
+      "devLocY" : 5.737740838998995,
+      "linkColor" : 3,
+      "distance" : 2.055213174953851
+    }, {
+      "devUniqueId" : 15,
+      "devAdd" : 15,
+      "devLocX" : 16.19690232511233,
+      "devLocY" : 16.19690232511233,
+      "linkColor" : 3,
+      "distance" : 8.977555034292804
+    }, {
+      "devUniqueId" : 20,
+      "devAdd" : 20,
+      "devLocX" : 12.080342010465374,
+      "devLocY" : 12.080342010465374,
+      "linkColor" : 3,
+      "distance" : 6.0991524792319165
+    }, {
+      "devUniqueId" : 18,
+      "devAdd" : 18,
+      "devLocX" : 10.8676046260492,
+      "devLocY" : 10.8676046260492,
+      "linkColor" : 3,
+      "distance" : 5.161548919254572
+    }, {
+      "devUniqueId" : 12,
+      "devAdd" : 12,
+      "devLocX" : 0.14856160617945147,
+      "devLocY" : 0.14856160617945147,
+      "linkColor" : 3,
+      "distance" : 8.641093611214716
+    }, {
+      "devUniqueId" : 25,
+      "devAdd" : 25,
+      "devLocX" : 14.913563932930682,
+      "devLocY" : 14.913563932930682,
+      "linkColor" : 4,
+      "distance" : 9.634594060018802
+    }, {
+      "devUniqueId" : 19,
+      "devAdd" : 19,
+      "devLocX" : 13.279531674490283,
+      "devLocY" : 13.279531674490283,
+      "linkColor" : 3,
+      "distance" : 7.251325090382611
+    }, {
+      "devUniqueId" : 23,
+      "devAdd" : 23,
+      "devLocX" : 2.7887912737614067,
+      "devLocY" : 2.7887912737614067,
+      "linkColor" : 1,
+      "distance" : 5.818938021066876
+    }, {
+      "devUniqueId" : 22,
+      "devAdd" : 22,
+      "devLocX" : 5.431968742419734,
+      "devLocY" : 5.431968742419734,
+      "linkColor" : 3,
+      "distance" : 3.0602574537286182
+    }, {
+      "devUniqueId" : 21,
+      "devAdd" : 21,
+      "devLocX" : 13.58670414088477,
+      "devLocY" : 13.58670414088477,
+      "linkColor" : 4,
+      "distance" : 5.877674207162014
+    }, {
+      "devUniqueId" : 1,
+      "devAdd" : 1,
+      "devLocX" : 15.723679818253292,
+      "devLocY" : 15.723679818253292,
+      "linkColor" : 3,
+      "distance" : 9.957477661389282
+    }, {
+      "devUniqueId" : 10,
+      "devAdd" : 10,
+      "devLocX" : 9.547714088685943,
+      "devLocY" : 9.547714088685943,
+      "linkColor" : 3,
+      "distance" : 7.774837729944498
+    }, {
+      "devUniqueId" : 17,
+      "devAdd" : 17,
+      "devLocX" : 6.064082155578832,
+      "devLocY" : 6.064082155578832,
+      "linkColor" : 3,
+      "distance" : 5.448585321552003
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 23,
+      "picMasterAdd" : 23,
+      "slaves" : [ {
+        "slaveUniqId" : 8,
+        "slaveAdd" : 8
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 24,
+    "devAdd" : 24,
+    "devLocX" : 25.408560091976256,
+    "devLocY" : 7.598238391977774,
+    "packetsRec" : 2,
+    "bridgeCnt" : 1,
+    "isDeviceCritical" : true,
+    "neighbours" : [ {
+      "devUniqueId" : 16,
+      "devAdd" : 16,
+      "devLocX" : 18.828960876163606,
+      "devLocY" : 18.828960876163606,
+      "linkColor" : 5,
+      "distance" : 6.625279576626295
+    }, {
+      "devUniqueId" : 14,
+      "devAdd" : 14,
+      "devLocX" : 28.735383721533523,
+      "devLocY" : 28.735383721533523,
+      "linkColor" : 1,
+      "distance" : 4.724061684082305
+    }, {
+      "devUniqueId" : 11,
+      "devAdd" : 11,
+      "devLocX" : 24.973476393568017,
+      "devLocY" : 24.973476393568017,
+      "linkColor" : 1,
+      "distance" : 5.821770551158043
+    }, {
+      "devUniqueId" : 9,
+      "devAdd" : 9,
+      "devLocX" : 20.375039044949045,
+      "devLocY" : 20.375039044949045,
+      "linkColor" : 1,
+      "distance" : 9.274178624639958
+    }, {
+      "devUniqueId" : 2,
+      "devAdd" : 2,
+      "devLocX" : 21.521181623278906,
+      "devLocY" : 21.521181623278906,
+      "linkColor" : 4,
+      "distance" : 4.863195740239729
+    }, {
+      "devUniqueId" : 13,
+      "devAdd" : 13,
+      "devLocX" : 17.232204204706285,
+      "devLocY" : 17.232204204706285,
+      "linkColor" : 1,
+      "distance" : 8.82698611318432
+    }, {
+      "devUniqueId" : 7,
+      "devAdd" : 7,
+      "devLocX" : 25.846371896248797,
+      "devLocY" : 25.846371896248797,
+      "linkColor" : 1,
+      "distance" : 7.706544697322785
+    }, {
+      "devUniqueId" : 6,
+      "devAdd" : 6,
+      "devLocX" : 19.952228486442515,
+      "devLocY" : 19.952228486442515,
+      "linkColor" : 2,
+      "distance" : 6.975184053122268
+    }, {
+      "devUniqueId" : 0,
+      "devAdd" : 0,
+      "devLocX" : 22.456443738183147,
+      "devLocY" : 22.456443738183147,
+      "linkColor" : 4,
+      "distance" : 6.364585907938135
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 24,
+      "picMasterAdd" : 24,
+      "slaves" : [ {
+        "slaveUniqId" : 14,
+        "slaveAdd" : 14
+      }, {
+        "slaveUniqId" : 11,
+        "slaveAdd" : 11
+      }, {
+        "slaveUniqId" : 9,
+        "slaveAdd" : 9
+      }, {
+        "slaveUniqId" : 13,
+        "slaveAdd" : 13
+      }, {
+        "slaveUniqId" : 7,
+        "slaveAdd" : 7
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 23,
+    "devAdd" : 23,
+    "devLocX" : 2.7887912737614067,
+    "devLocY" : 13.212774630494442,
+    "packetsRec" : 6,
+    "bridgeCnt" : 1,
+    "isDeviceCritical" : true,
+    "neighbours" : [ {
+      "devUniqueId" : 5,
+      "devAdd" : 5,
+      "devLocX" : 5.737740838998995,
+      "devLocY" : 5.737740838998995,
+      "linkColor" : 1,
+      "distance" : 4.012513182571768
+    }, {
+      "devUniqueId" : 20,
+      "devAdd" : 20,
+      "devLocX" : 12.080342010465374,
+      "devLocY" : 12.080342010465374,
+      "linkColor" : 2,
+      "distance" : 9.384425973864886
+    }, {
+      "devUniqueId" : 12,
+      "devAdd" : 12,
+      "devLocX" : 0.14856160617945147,
+      "devLocY" : 0.14856160617945147,
+      "linkColor" : 1,
+      "distance" : 7.544129007884264
+    }, {
+      "devUniqueId" : 8,
+      "devAdd" : 8,
+      "devLocX" : 7.773681627519238,
+      "devLocY" : 7.773681627519238,
+      "linkColor" : 1,
+      "distance" : 5.818938021066876
+    }, {
+      "devUniqueId" : 22,
+      "devAdd" : 22,
+      "devLocX" : 5.431968742419734,
+      "devLocY" : 5.431968742419734,
+      "linkColor" : 1,
+      "distance" : 5.630898002578957
+    }, {
+      "devUniqueId" : 4,
+      "devAdd" : 4,
+      "devLocX" : 8.624223152130986,
+      "devLocY" : 8.624223152130986,
+      "linkColor" : 2,
+      "distance" : 9.97776201617938
+    }, {
+      "devUniqueId" : 17,
+      "devAdd" : 17,
+      "devLocX" : 6.064082155578832,
+      "devLocY" : 6.064082155578832,
+      "linkColor" : 1,
+      "distance" : 8.806938130940184
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 23,
+      "picMasterAdd" : 23,
+      "slaves" : [ {
+        "slaveUniqId" : 5,
+        "slaveAdd" : 5
+      }, {
+        "slaveUniqId" : 12,
+        "slaveAdd" : 12
+      }, {
+        "slaveUniqId" : 8,
+        "slaveAdd" : 8
+      }, {
+        "slaveUniqId" : 22,
+        "slaveAdd" : 22
+      }, {
+        "slaveUniqId" : 17,
+        "slaveAdd" : 17
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 22,
+    "devAdd" : 22,
+    "devLocX" : 5.431968742419734,
+    "devLocY" : 18.184758659493795,
+    "packetsRec" : 10,
+    "bridgeCnt" : 0,
+    "isDeviceCritical" : true,
+    "neighbours" : [ {
+      "devUniqueId" : 5,
+      "devAdd" : 5,
+      "devLocX" : 5.737740838998995,
+      "devLocY" : 5.737740838998995,
+      "linkColor" : 3,
+      "distance" : 2.2716356375072637
+    }, {
+      "devUniqueId" : 20,
+      "devAdd" : 20,
+      "devLocX" : 12.080342010465374,
+      "devLocY" : 12.080342010465374,
+      "linkColor" : 3,
+      "distance" : 9.151634310148609
+    }, {
+      "devUniqueId" : 18,
+      "devAdd" : 18,
+      "devLocX" : 10.8676046260492,
+      "devLocY" : 10.8676046260492,
+      "linkColor" : 3,
+      "distance" : 5.849569706698422
+    }, {
+      "devUniqueId" : 12,
+      "devAdd" : 12,
+      "devLocX" : 0.14856160617945147,
+      "devLocY" : 0.14856160617945147,
+      "linkColor" : 3,
+      "distance" : 5.683630447410018
+    }, {
+      "devUniqueId" : 19,
+      "devAdd" : 19,
+      "devLocX" : 13.279531674490283,
+      "devLocY" : 13.279531674490283,
+      "linkColor" : 3,
+      "distance" : 8.315009287048024
+    }, {
+      "devUniqueId" : 8,
+      "devAdd" : 8,
+      "devLocX" : 7.773681627519238,
+      "devLocY" : 7.773681627519238,
+      "linkColor" : 3,
+      "distance" : 3.0602574537286182
+    }, {
+      "devUniqueId" : 23,
+      "devAdd" : 23,
+      "devLocX" : 2.7887912737614067,
+      "devLocY" : 2.7887912737614067,
+      "linkColor" : 1,
+      "distance" : 5.630898002578957
+    }, {
+      "devUniqueId" : 21,
+      "devAdd" : 21,
+      "devLocX" : 13.58670414088477,
+      "devLocY" : 13.58670414088477,
+      "linkColor" : 3,
+      "distance" : 8.634971921412312
+    }, {
+      "devUniqueId" : 10,
+      "devAdd" : 10,
+      "devLocX" : 9.547714088685943,
+      "devLocY" : 9.547714088685943,
+      "linkColor" : 3,
+      "distance" : 6.949427507669636
+    }, {
+      "devUniqueId" : 17,
+      "devAdd" : 17,
+      "devLocX" : 6.064082155578832,
+      "devLocY" : 6.064082155578832,
+      "linkColor" : 3,
+      "distance" : 3.265034067182691
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 23,
+      "picMasterAdd" : 23,
+      "slaves" : [ {
+        "slaveUniqId" : 22,
+        "slaveAdd" : 22
+      } ]
+    }, {
+      "picMasterId" : 20,
+      "picMasterAdd" : 20,
+      "slaves" : [ {
+        "slaveUniqId" : 22,
+        "slaveAdd" : 22
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 21,
+    "devAdd" : 21,
+    "devLocX" : 13.58670414088477,
+    "devLocY" : 15.345211043305554,
+    "packetsRec" : 2,
+    "bridgeCnt" : 2,
+    "isDeviceCritical" : true,
+    "neighbours" : [ {
+      "devUniqueId" : 16,
+      "devAdd" : 16,
+      "devLocX" : 18.828960876163606,
+      "devLocY" : 18.828960876163606,
+      "linkColor" : 4,
+      "distance" : 8.721610422347593
+    }, {
+      "devUniqueId" : 5,
+      "devAdd" : 5,
+      "devLocX" : 5.737740838998995,
+      "devLocY" : 5.737740838998995,
+      "linkColor" : 4,
+      "distance" : 7.871001043517214
+    }, {
+      "devUniqueId" : 15,
+      "devAdd" : 15,
+      "devLocX" : 16.19690232511233,
+      "devLocY" : 16.19690232511233,
+      "linkColor" : 4,
+      "distance" : 3.4372371460242377
+    }, {
+      "devUniqueId" : 20,
+      "devAdd" : 20,
+      "devLocX" : 12.080342010465374,
+      "devLocY" : 12.080342010465374,
+      "linkColor" : 5,
+      "distance" : 3.7640219077138464
+    }, {
+      "devUniqueId" : 18,
+      "devAdd" : 18,
+      "devLocX" : 10.8676046260492,
+      "devLocY" : 10.8676046260492,
+      "linkColor" : 1,
+      "distance" : 5.692296106888384
+    }, {
+      "devUniqueId" : 9,
+      "devAdd" : 9,
+      "devLocX" : 20.375039044949045,
+      "devLocY" : 20.375039044949045,
+      "linkColor" : 4,
+      "distance" : 6.788467209424305
+    }, {
+      "devUniqueId" : 25,
+      "devAdd" : 25,
+      "devLocX" : 14.913563932930682,
+      "devLocY" : 14.913563932930682,
+      "linkColor" : 5,
+      "distance" : 5.754639543103188
+    }, {
+      "devUniqueId" : 19,
+      "devAdd" : 19,
+      "devLocX" : 13.279531674490283,
+      "devLocY" : 13.279531674490283,
+      "linkColor" : 1,
+      "distance" : 5.596644240778277
+    }, {
+      "devUniqueId" : 8,
+      "devAdd" : 8,
+      "devLocX" : 7.773681627519238,
+      "devLocY" : 7.773681627519238,
+      "linkColor" : 4,
+      "distance" : 5.877674207162014
+    }, {
+      "devUniqueId" : 22,
+      "devAdd" : 22,
+      "devLocX" : 5.431968742419734,
+      "devLocY" : 5.431968742419734,
+      "linkColor" : 3,
+      "distance" : 8.634971921412312
+    }, {
+      "devUniqueId" : 13,
+      "devAdd" : 13,
+      "devLocX" : 17.232204204706285,
+      "devLocY" : 17.232204204706285,
+      "linkColor" : 4,
+      "distance" : 5.730083429603586
+    }, {
+      "devUniqueId" : 1,
+      "devAdd" : 1,
+      "devLocX" : 15.723679818253292,
+      "devLocY" : 15.723679818253292,
+      "linkColor" : 1,
+      "distance" : 7.1900307646260195
+    }, {
+      "devUniqueId" : 0,
+      "devAdd" : 0,
+      "devLocX" : 22.456443738183147,
+      "devLocY" : 22.456443738183147,
+      "linkColor" : 1,
+      "distance" : 9.11689818588182
+    }, {
+      "devUniqueId" : 10,
+      "devAdd" : 10,
+      "devLocX" : 9.547714088685943,
+      "devLocY" : 9.547714088685943,
+      "linkColor" : 1,
+      "distance" : 9.355861525745082
+    }, {
+      "devUniqueId" : 17,
+      "devAdd" : 17,
+      "devLocX" : 6.064082155578832,
+      "devLocY" : 6.064082155578832,
+      "linkColor" : 2,
+      "distance" : 9.649112691323827
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 21,
+      "picMasterAdd" : 21,
+      "slaves" : [ {
+        "slaveUniqId" : 18,
+        "slaveAdd" : 18
+      }, {
+        "slaveUniqId" : 19,
+        "slaveAdd" : 19
+      }, {
+        "slaveUniqId" : 1,
+        "slaveAdd" : 1
+      }, {
+        "slaveUniqId" : 0,
+        "slaveAdd" : 0
+      }, {
+        "slaveUniqId" : 10,
+        "slaveAdd" : 10
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 2,
+    "devAdd" : 2,
+    "devLocX" : 21.521181623278906,
+    "devLocY" : 4.676088250558942,
+    "packetsRec" : 6,
+    "bridgeCnt" : 0,
+    "isDeviceCritical" : true,
+    "neighbours" : [ {
+      "devUniqueId" : 16,
+      "devAdd" : 16,
+      "devLocX" : 18.828960876163606,
+      "devLocY" : 18.828960876163606,
+      "linkColor" : 3,
+      "distance" : 4.574851111444816
+    }, {
+      "devUniqueId" : 14,
+      "devAdd" : 14,
+      "devLocX" : 28.735383721533523,
+      "devLocY" : 28.735383721533523,
+      "linkColor" : 3,
+      "distance" : 9.562122538110978
+    }, {
+      "devUniqueId" : 15,
+      "devAdd" : 15,
+      "devLocX" : 16.19690232511233,
+      "devLocY" : 16.19690232511233,
+      "linkColor" : 3,
+      "distance" : 9.972905312663123
+    }, {
+      "devUniqueId" : 11,
+      "devAdd" : 11,
+      "devLocX" : 24.973476393568017,
+      "devLocY" : 24.973476393568017,
+      "linkColor" : 3,
+      "distance" : 4.497998233944152
+    }, {
+      "devUniqueId" : 25,
+      "devAdd" : 25,
+      "devLocX" : 14.913563932930682,
+      "devLocY" : 14.913563932930682,
+      "linkColor" : 1,
+      "distance" : 8.328316437143485
+    }, {
+      "devUniqueId" : 24,
+      "devAdd" : 24,
+      "devLocX" : 25.408560091976256,
+      "devLocY" : 25.408560091976256,
+      "linkColor" : 4,
+      "distance" : 4.863195740239729
+    }, {
+      "devUniqueId" : 13,
+      "devAdd" : 13,
+      "devLocX" : 17.232204204706285,
+      "devLocY" : 17.232204204706285,
+      "linkColor" : 3,
+      "distance" : 7.578644841466712
+    }, {
+      "devUniqueId" : 6,
+      "devAdd" : 6,
+      "devLocX" : 19.952228486442515,
+      "devLocY" : 19.952228486442515,
+      "linkColor" : 3,
+      "distance" : 2.1182472462850392
+    }, {
+      "devUniqueId" : 0,
+      "devAdd" : 0,
+      "devLocX" : 22.456443738183147,
+      "devLocY" : 22.456443738183147,
+      "linkColor" : 3,
+      "distance" : 8.611612626678657
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 25,
+      "picMasterAdd" : 25,
+      "slaves" : [ {
+        "slaveUniqId" : 2,
+        "slaveAdd" : 2
+      } ]
+    }, {
+      "picMasterId" : 2,
+      "picMasterAdd" : 2,
+      "slaves" : [ {
+        "slaveUniqId" : 14,
+        "slaveAdd" : 14
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 13,
+    "devAdd" : 13,
+    "devLocX" : 17.232204204706285,
+    "devLocY" : 10.924330430249494,
+    "packetsRec" : 5,
+    "bridgeCnt" : 0,
+    "isDeviceCritical" : false,
+    "neighbours" : [ {
+      "devUniqueId" : 16,
+      "devAdd" : 16,
+      "devLocX" : 18.828960876163606,
+      "devLocY" : 18.828960876163606,
+      "linkColor" : 3,
+      "distance" : 3.008193171599745
+    }, {
+      "devUniqueId" : 15,
+      "devAdd" : 15,
+      "devLocX" : 16.19690232511233,
+      "devLocY" : 16.19690232511233,
+      "linkColor" : 3,
+      "distance" : 2.4174005422924933
+    }, {
+      "devUniqueId" : 20,
+      "devAdd" : 20,
+      "devLocX" : 12.080342010465374,
+      "devLocY" : 12.080342010465374,
+      "linkColor" : 3,
+      "distance" : 5.24264755705978
+    }, {
+      "devUniqueId" : 9,
+      "devAdd" : 9,
+      "devLocX" : 20.375039044949045,
+      "devLocY" : 20.375039044949045,
+      "linkColor" : 3,
+      "distance" : 5.45876627335916
+    }, {
+      "devUniqueId" : 25,
+      "devAdd" : 25,
+      "devLocX" : 14.913563932930682,
+      "devLocY" : 14.913563932930682,
+      "linkColor" : 4,
+      "distance" : 2.601043989531262
+    }, {
+      "devUniqueId" : 24,
+      "devAdd" : 24,
+      "devLocX" : 25.408560091976256,
+      "devLocY" : 25.408560091976256,
+      "linkColor" : 1,
+      "distance" : 8.82698611318432
+    }, {
+      "devUniqueId" : 21,
+      "devAdd" : 21,
+      "devLocX" : 13.58670414088477,
+      "devLocY" : 13.58670414088477,
+      "linkColor" : 4,
+      "distance" : 5.730083429603586
+    }, {
+      "devUniqueId" : 2,
+      "devAdd" : 2,
+      "devLocX" : 21.521181623278906,
+      "devLocY" : 21.521181623278906,
+      "linkColor" : 3,
+      "distance" : 7.578644841466712
+    }, {
+      "devUniqueId" : 7,
+      "devAdd" : 7,
+      "devLocX" : 25.846371896248797,
+      "devLocY" : 25.846371896248797,
+      "linkColor" : 3,
+      "distance" : 9.658331409718661
+    }, {
+      "devUniqueId" : 6,
+      "devAdd" : 6,
+      "devLocX" : 19.952228486442515,
+      "devLocY" : 19.952228486442515,
+      "linkColor" : 3,
+      "distance" : 8.139336478244152
+    }, {
+      "devUniqueId" : 0,
+      "devAdd" : 0,
+      "devLocX" : 22.456443738183147,
+      "devLocY" : 22.456443738183147,
+      "linkColor" : 3,
+      "distance" : 5.7131448736119355
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 24,
+      "picMasterAdd" : 24,
+      "slaves" : [ {
+        "slaveUniqId" : 13,
+        "slaveAdd" : 13
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 7,
+    "devAdd" : 7,
+    "devLocX" : 25.846371896248797,
+    "devLocY" : 15.292336909404852,
+    "packetsRec" : 4,
+    "bridgeCnt" : 0,
+    "isDeviceCritical" : false,
+    "neighbours" : [ {
+      "devUniqueId" : 16,
+      "devAdd" : 16,
+      "devLocX" : 18.828960876163606,
+      "devLocY" : 18.828960876163606,
+      "linkColor" : 3,
+      "distance" : 9.853678880808644
+    }, {
+      "devUniqueId" : 14,
+      "devAdd" : 14,
+      "devLocX" : 28.735383721533523,
+      "devLocY" : 28.735383721533523,
+      "linkColor" : 3,
+      "distance" : 5.213755754348655
+    }, {
+      "devUniqueId" : 15,
+      "devAdd" : 15,
+      "devLocX" : 16.19690232511233,
+      "devLocY" : 16.19690232511233,
+      "linkColor" : 3,
+      "distance" : 9.893433598592717
+    }, {
+      "devUniqueId" : 9,
+      "devAdd" : 9,
+      "devLocX" : 20.375039044949045,
+      "devLocY" : 20.375039044949045,
+      "linkColor" : 3,
+      "distance" : 5.472162005333273
+    }, {
+      "devUniqueId" : 24,
+      "devAdd" : 24,
+      "devLocX" : 25.408560091976256,
+      "devLocY" : 25.408560091976256,
+      "linkColor" : 1,
+      "distance" : 7.706544697322785
+    }, {
+      "devUniqueId" : 13,
+      "devAdd" : 13,
+      "devLocX" : 17.232204204706285,
+      "devLocY" : 17.232204204706285,
+      "linkColor" : 3,
+      "distance" : 9.658331409718661
+    }, {
+      "devUniqueId" : 0,
+      "devAdd" : 0,
+      "devLocX" : 22.456443738183147,
+      "devLocY" : 22.456443738183147,
+      "linkColor" : 3,
+      "distance" : 3.964466660104582
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 24,
+      "picMasterAdd" : 24,
+      "slaves" : [ {
+        "slaveUniqId" : 7,
+        "slaveAdd" : 7
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 6,
+    "devAdd" : 6,
+    "devLocX" : 19.952228486442515,
+    "devLocY" : 3.2529377136144486,
+    "packetsRec" : 6,
+    "bridgeCnt" : 0,
+    "isDeviceCritical" : false,
+    "neighbours" : [ {
+      "devUniqueId" : 16,
+      "devAdd" : 16,
+      "devLocX" : 18.828960876163606,
+      "devLocY" : 18.828960876163606,
+      "linkColor" : 3,
+      "distance" : 5.2436847975756065
+    }, {
+      "devUniqueId" : 11,
+      "devAdd" : 11,
+      "devLocX" : 24.973476393568017,
+      "devLocY" : 24.973476393568017,
+      "linkColor" : 3,
+      "distance" : 5.229252670967645
+    }, {
+      "devUniqueId" : 25,
+      "devAdd" : 25,
+      "devLocX" : 14.913563932930682,
+      "devLocY" : 14.913563932930682,
+      "linkColor" : 1,
+      "distance" : 8.218465810059296
+    }, {
+      "devUniqueId" : 24,
+      "devAdd" : 24,
+      "devLocX" : 25.408560091976256,
+      "devLocY" : 25.408560091976256,
+      "linkColor" : 2,
+      "distance" : 6.975184053122268
+    }, {
+      "devUniqueId" : 2,
+      "devAdd" : 2,
+      "devLocX" : 21.521181623278906,
+      "devLocY" : 21.521181623278906,
+      "linkColor" : 3,
+      "distance" : 2.1182472462850392
+    }, {
+      "devUniqueId" : 13,
+      "devAdd" : 13,
+      "devLocX" : 17.232204204706285,
+      "devLocY" : 17.232204204706285,
+      "linkColor" : 3,
+      "distance" : 8.139336478244152
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 25,
+      "picMasterAdd" : 25,
+      "slaves" : [ {
+        "slaveUniqId" : 6,
+        "slaveAdd" : 6
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 1,
+    "devAdd" : 1,
+    "devLocX" : 15.723679818253292,
+    "devLocY" : 22.210331388252463,
+    "packetsRec" : 6,
+    "bridgeCnt" : 0,
+    "isDeviceCritical" : false,
+    "neighbours" : [ {
+      "devUniqueId" : 15,
+      "devAdd" : 15,
+      "devLocX" : 16.19690232511233,
+      "devLocY" : 16.19690232511233,
+      "linkColor" : 3,
+      "distance" : 9.113809819267201
+    }, {
+      "devUniqueId" : 18,
+      "devAdd" : 18,
+      "devLocX" : 10.8676046260492,
+      "devLocY" : 10.8676046260492,
+      "linkColor" : 3,
+      "distance" : 5.201623177138483
+    }, {
+      "devUniqueId" : 9,
+      "devAdd" : 9,
+      "devLocX" : 20.375039044949045,
+      "devLocY" : 20.375039044949045,
+      "linkColor" : 3,
+      "distance" : 8.257414435992162
+    }, {
+      "devUniqueId" : 19,
+      "devAdd" : 19,
+      "devLocX" : 13.279531674490283,
+      "devLocY" : 13.279531674490283,
+      "linkColor" : 3,
+      "distance" : 2.7576012326189727
+    }, {
+      "devUniqueId" : 8,
+      "devAdd" : 8,
+      "devLocX" : 7.773681627519238,
+      "devLocY" : 7.773681627519238,
+      "linkColor" : 3,
+      "distance" : 9.957477661389282
+    }, {
+      "devUniqueId" : 21,
+      "devAdd" : 21,
+      "devLocX" : 13.58670414088477,
+      "devLocY" : 13.58670414088477,
+      "linkColor" : 1,
+      "distance" : 7.1900307646260195
+    }, {
+      "devUniqueId" : 10,
+      "devAdd" : 10,
+      "devLocX" : 9.547714088685943,
+      "devLocY" : 9.547714088685943,
+      "linkColor" : 3,
+      "distance" : 6.373383697036734
+    }, {
+      "devUniqueId" : 17,
+      "devAdd" : 17,
+      "devLocX" : 6.064082155578832,
+      "devLocY" : 6.064082155578832,
+      "linkColor" : 3,
+      "distance" : 9.694535771539323
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 21,
+      "picMasterAdd" : 21,
+      "slaves" : [ {
+        "slaveUniqId" : 1,
+        "slaveAdd" : 1
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 0,
+    "devAdd" : 0,
+    "devLocX" : 22.456443738183147,
+    "devLocY" : 13.236763271163108,
+    "packetsRec" : 6,
+    "bridgeCnt" : 0,
+    "isDeviceCritical" : false,
+    "neighbours" : [ {
+      "devUniqueId" : 16,
+      "devAdd" : 16,
+      "devLocX" : 18.828960876163606,
+      "devLocY" : 18.828960876163606,
+      "linkColor" : 3,
+      "distance" : 6.065999014031768
+    }, {
+      "devUniqueId" : 14,
+      "devAdd" : 14,
+      "devLocX" : 28.735383721533523,
+      "devLocY" : 28.735383721533523,
+      "linkColor" : 3,
+      "distance" : 6.681643077129852
+    }, {
+      "devUniqueId" : 15,
+      "devAdd" : 15,
+      "devLocX" : 16.19690232511233,
+      "devLocY" : 16.19690232511233,
+      "linkColor" : 3,
+      "distance" : 6.260848929006023
+    }, {
+      "devUniqueId" : 9,
+      "devAdd" : 9,
+      "devLocX" : 20.375039044949045,
+      "devLocY" : 20.375039044949045,
+      "linkColor" : 3,
+      "distance" : 2.9930447259233484
+    }, {
+      "devUniqueId" : 25,
+      "devAdd" : 25,
+      "devLocX" : 14.913563932930682,
+      "devLocY" : 14.913563932930682,
+      "linkColor" : 4,
+      "distance" : 8.31162164953696
+    }, {
+      "devUniqueId" : 24,
+      "devAdd" : 24,
+      "devLocX" : 25.408560091976256,
+      "devLocY" : 25.408560091976256,
+      "linkColor" : 4,
+      "distance" : 6.364585907938135
+    }, {
+      "devUniqueId" : 21,
+      "devAdd" : 21,
+      "devLocX" : 13.58670414088477,
+      "devLocY" : 13.58670414088477,
+      "linkColor" : 1,
+      "distance" : 9.11689818588182
+    }, {
+      "devUniqueId" : 2,
+      "devAdd" : 2,
+      "devLocX" : 21.521181623278906,
+      "devLocY" : 21.521181623278906,
+      "linkColor" : 3,
+      "distance" : 8.611612626678657
+    }, {
+      "devUniqueId" : 13,
+      "devAdd" : 13,
+      "devLocX" : 17.232204204706285,
+      "devLocY" : 17.232204204706285,
+      "linkColor" : 3,
+      "distance" : 5.7131448736119355
+    }, {
+      "devUniqueId" : 7,
+      "devAdd" : 7,
+      "devLocX" : 25.846371896248797,
+      "devLocY" : 25.846371896248797,
+      "linkColor" : 3,
+      "distance" : 3.964466660104582
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 21,
+      "picMasterAdd" : 21,
+      "slaves" : [ {
+        "slaveUniqId" : 0,
+        "slaveAdd" : 0
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 10,
+    "devAdd" : 10,
+    "devLocX" : 9.547714088685943,
+    "devLocY" : 23.784328547355134,
+    "packetsRec" : 6,
+    "bridgeCnt" : 0,
+    "isDeviceCritical" : false,
+    "neighbours" : [ {
+      "devUniqueId" : 5,
+      "devAdd" : 5,
+      "devLocX" : 5.737740838998995,
+      "devLocY" : 5.737740838998995,
+      "linkColor" : 3,
+      "distance" : 8.726210744255873
+    }, {
+      "devUniqueId" : 18,
+      "devAdd" : 18,
+      "devLocX" : 10.8676046260492,
+      "devLocY" : 10.8676046260492,
+      "linkColor" : 3,
+      "distance" : 3.682884046677601
+    }, {
+      "devUniqueId" : 19,
+      "devAdd" : 19,
+      "devLocX" : 13.279531674490283,
+      "devLocY" : 13.279531674490283,
+      "linkColor" : 3,
+      "distance" : 4.696184181909551
+    }, {
+      "devUniqueId" : 8,
+      "devAdd" : 8,
+      "devLocX" : 7.773681627519238,
+      "devLocY" : 7.773681627519238,
+      "linkColor" : 3,
+      "distance" : 7.774837729944498
+    }, {
+      "devUniqueId" : 22,
+      "devAdd" : 22,
+      "devLocX" : 5.431968742419734,
+      "devLocY" : 5.431968742419734,
+      "linkColor" : 3,
+      "distance" : 6.949427507669636
+    }, {
+      "devUniqueId" : 21,
+      "devAdd" : 21,
+      "devLocX" : 13.58670414088477,
+      "devLocY" : 13.58670414088477,
+      "linkColor" : 1,
+      "distance" : 9.355861525745082
+    }, {
+      "devUniqueId" : 1,
+      "devAdd" : 1,
+      "devLocX" : 15.723679818253292,
+      "devLocY" : 15.723679818253292,
+      "linkColor" : 3,
+      "distance" : 6.373383697036734
+    }, {
+      "devUniqueId" : 17,
+      "devAdd" : 17,
+      "devLocX" : 6.064082155578832,
+      "devLocY" : 6.064082155578832,
+      "linkColor" : 3,
+      "distance" : 4.228237036356671
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 21,
+      "picMasterAdd" : 21,
+      "slaves" : [ {
+        "slaveUniqId" : 10,
+        "slaveAdd" : 10
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 4,
+    "devAdd" : 4,
+    "devLocX" : 8.624223152130986,
+    "devLocY" : 5.119353249865598,
+    "packetsRec" : 10,
+    "bridgeCnt" : 0,
+    "isDeviceCritical" : false,
+    "neighbours" : [ {
+      "devUniqueId" : 20,
+      "devAdd" : 20,
+      "devLocX" : 12.080342010465374,
+      "devLocY" : 12.080342010465374,
+      "linkColor" : 3,
+      "distance" : 7.606865561082337
+    }, {
+      "devUniqueId" : 25,
+      "devAdd" : 25,
+      "devLocX" : 14.913563932930682,
+      "devLocY" : 14.913563932930682,
+      "linkColor" : 1,
+      "distance" : 7.807575457367805
+    }, {
+      "devUniqueId" : 23,
+      "devAdd" : 23,
+      "devLocX" : 2.7887912737614067,
+      "devLocY" : 2.7887912737614067,
+      "linkColor" : 2,
+      "distance" : 9.97776201617938
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 25,
+      "picMasterAdd" : 25,
+      "slaves" : [ {
+        "slaveUniqId" : 4,
+        "slaveAdd" : 4
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  }, {
+    "devUniqueId" : 17,
+    "devAdd" : 17,
+    "devLocX" : 6.064082155578832,
+    "devLocY" : 21.388019512557108,
+    "packetsRec" : 6,
+    "bridgeCnt" : 0,
+    "isDeviceCritical" : false,
+    "neighbours" : [ {
+      "devUniqueId" : 5,
+      "devAdd" : 5,
+      "devLocX" : 5.737740838998995,
+      "devLocY" : 5.737740838998995,
+      "linkColor" : 3,
+      "distance" : 5.463977521645248
+    }, {
+      "devUniqueId" : 18,
+      "devAdd" : 18,
+      "devLocX" : 10.8676046260492,
+      "devLocY" : 10.8676046260492,
+      "linkColor" : 3,
+      "distance" : 4.915227077404317
+    }, {
+      "devUniqueId" : 12,
+      "devAdd" : 12,
+      "devLocX" : 0.14856160617945147,
+      "devLocY" : 0.14856160617945147,
+      "linkColor" : 3,
+      "distance" : 6.01842994572636
+    }, {
+      "devUniqueId" : 19,
+      "devAdd" : 19,
+      "devLocX" : 13.279531674490283,
+      "devLocY" : 13.279531674490283,
+      "linkColor" : 3,
+      "distance" : 7.229756087705185
+    }, {
+      "devUniqueId" : 8,
+      "devAdd" : 8,
+      "devLocX" : 7.773681627519238,
+      "devLocY" : 7.773681627519238,
+      "linkColor" : 3,
+      "distance" : 5.448585321552003
+    }, {
+      "devUniqueId" : 23,
+      "devAdd" : 23,
+      "devLocX" : 2.7887912737614067,
+      "devLocY" : 2.7887912737614067,
+      "linkColor" : 1,
+      "distance" : 8.806938130940184
+    }, {
+      "devUniqueId" : 22,
+      "devAdd" : 22,
+      "devLocX" : 5.431968742419734,
+      "devLocY" : 5.431968742419734,
+      "linkColor" : 3,
+      "distance" : 3.265034067182691
+    }, {
+      "devUniqueId" : 21,
+      "devAdd" : 21,
+      "devLocX" : 13.58670414088477,
+      "devLocY" : 13.58670414088477,
+      "linkColor" : 2,
+      "distance" : 9.649112691323827
+    }, {
+      "devUniqueId" : 1,
+      "devAdd" : 1,
+      "devLocX" : 15.723679818253292,
+      "devLocY" : 15.723679818253292,
+      "linkColor" : 3,
+      "distance" : 9.694535771539323
+    }, {
+      "devUniqueId" : 10,
+      "devAdd" : 10,
+      "devLocX" : 9.547714088685943,
+      "devLocY" : 9.547714088685943,
+      "linkColor" : 3,
+      "distance" : 4.228237036356671
+    } ],
+    "piconet" : [ {
+      "picMasterId" : 23,
+      "picMasterAdd" : 23,
+      "slaves" : [ {
+        "slaveUniqId" : 17,
+        "slaveAdd" : 17
+      } ]
+    } ],
+    "packStat" : {
+      "Energy" : [ ],
+      "Time" : [ ]
+    }
+  } ]
+}

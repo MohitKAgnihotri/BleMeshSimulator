@@ -9,13 +9,17 @@ import org.codehaus.jackson.map.SerializationConfig;
 
 import java.io.File;
 import java.io.IOException;
+import java.nio.file.Path;
+import java.nio.file.Paths;
+
+import static java.io.File.*;
 
 public class IteratorEngine {
-    static String folder = "./Config/";
-    static String logFileName = "./Logs/NetworkLog.json";
+    static String folder = "Config/";
+    static String logFileName = "Logs/NetworkLog.json";
 
     private static final int numBridges = 2;
-    private static final int[] numDevices = {15};
+    private static final int[] numDevices = {25};
     // private static final int[] numDevices = {35,45,55,65,75};
     private static final int numDeployments = 1;
     private static final double[] deploymentChar = {0.3};
@@ -36,8 +40,10 @@ public class IteratorEngine {
                             try {
                                 String fileName = numDevices[i] + "_Deployment_" + k + "_traf_0.json";
                                 System.out.println(fileName);
-                                String filePath = folder + File.separator + configSubfolder + File.separator + fileName;
+                                String filePath = folder + separator   + configSubfolder + separator + fileName;
                                 System.out.println(filePath);
+                                
+
                                 sim = new BleMeshSimulator(1, 10000, devType, gwSel, filePath, numBridges);
 
                                 for (final BleMeshDevice aDevice : BleMeshSimulator.devices) {

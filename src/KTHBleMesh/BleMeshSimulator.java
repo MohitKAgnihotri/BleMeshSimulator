@@ -21,6 +21,8 @@ import com.eclipsesource.json.JsonObject;
 import KTHBleMesh.BleMeshDeviceComputationProp.ComputeClass;
 import KTHBleMesh.BleMeshDeviceComputationProp.MemoryClass;
 import KTHBleMesh.BleMeshDeviceEnergyProp.EnergySource;
+import java.nio.file.Path;
+import java.nio.file.Paths;
 
 /**
  * BLE Mesh simulator
@@ -44,6 +46,10 @@ public class BleMeshSimulator extends Simulator {
 		BleMeshSimulator.deviceType = deviceType;
 		BleMeshSimulator.gatewaySelAlgorithm = gatewaySelAlgorithm;
 		BleMeshSimulator.numBridges = numBridges;
+
+		Path currentRelativePath = Paths.get("");
+		String s = currentRelativePath.toAbsolutePath().toString();
+		System.out.println("Current relative path is: " + s);
 
 		jsonObject = JsonObject.readFrom(new FileReader(filePath));
 		txManager = new BleMeshTxManager();
@@ -189,10 +195,7 @@ public class BleMeshSimulator extends Simulator {
 
 	/**
 	 * Constructs a {@code BleSimulator}.
-	 *
-	 * @param aSimulatorModel
-	 * @param aRootRandomSeed
-	 * @throws IOException 
+	 * @throws IOException
 	 * @throws FileNotFoundException 
 	 */
 	public static void main(String[] args) throws IOException {
@@ -233,7 +236,7 @@ public class BleMeshSimulator extends Simulator {
 		ObjectMapper mapper = new ObjectMapper();
 		mapper.setVisibility(JsonMethod.FIELD, Visibility.ANY);
 		mapper.enable(SerializationConfig.Feature.INDENT_OUTPUT,SerializationConfig.Feature.SORT_PROPERTIES_ALPHABETICALLY);
-		File jsonLogFile = new File("C:\\EventSimulator\\TestCaseExecution\\Logs\\11.json");
+		File jsonLogFile = new File("Logs/NetworkLog.json");
 		try {
 			mapper.writeValue(jsonLogFile, simLog);
 		} catch (JsonGenerationException e) {
@@ -428,7 +431,7 @@ public class BleMeshSimulator extends Simulator {
 		int configLog = devices.get(0).getGatewaySelRule();
 		int deviceConf = devices.size();
 		File jsonLogFile = new File(
-				"C:\\EventSimulator\\TestCaseExecution\\Logs\\1.json");
+				"Logs/Topology.json");
 		try {
 			mapper.writeValue(jsonLogFile, Graph);
 		} catch (JsonGenerationException e) {
