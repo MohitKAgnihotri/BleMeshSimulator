@@ -193,63 +193,63 @@ public class BleMeshSimulator extends Simulator {
 	}
 	*/
 
-	/**
-	 * Constructs a {@code BleSimulator}.
-	 * @throws IOException
-	 * @throws FileNotFoundException 
-	 */
-	public static void main(String[] args) throws IOException {
-
-		Simulator sim = new BleMeshSimulator(1, 1000, 1, 3, "15_Deployment_0_Traf_0.json",1);
-		
-		for (final BleMeshDevice aDevice : devices) {
-			Event e = new Event(0, new Runnable() {
-				@Override
-				public void run() {
-					AlgorithmPhase1(aDevice);
-				}
-			});
-			insert(e);
-		}
-
-		for (final BleMeshDevice aDevice : devices) {
-			Event e = new Event(6, new Runnable() {
-				@Override
-				public void run() {
-					aDevice.UpdateRoutingTable();
-				}
-			});
-			insert(e);
-		}
-
-		for (final BleMeshDevice aDevice : devices) {
-			Event e = new Event(10, new Runnable() {
-				@Override
-				public void run() {
-					DeviceLogger();
-				}
-			});
-			insert(e);
-		}
-
-		sim.doAllEvents();
-		ObjectMapper mapper = new ObjectMapper();
-		mapper.setVisibility(JsonMethod.FIELD, Visibility.ANY);
-		mapper.enable(SerializationConfig.Feature.INDENT_OUTPUT,SerializationConfig.Feature.SORT_PROPERTIES_ALPHABETICALLY);
-		File jsonLogFile = new File("Logs/NetworkLog.json");
-		try {
-			mapper.writeValue(jsonLogFile, simLog);
-		} catch (JsonGenerationException e) {
-			e.printStackTrace();
-		} catch (JsonMappingException e) {
-			e.printStackTrace();
-		} catch (IOException e) {
-			e.printStackTrace();
-			System.out.println("Done with the experiment");
-		}
-		System.out.println("Done with the experiment");
-	}
-
+//	/**
+//	 * Constructs a {@code BleSimulator}.
+//	 * @throws IOException
+//	 * @throws FileNotFoundException
+//	 */
+//	public static void main(String[] args) throws IOException {
+//
+//		Simulator sim = new BleMeshSimulator(1, 1000, 1, 3, "15_Deployment_0_Traf_0.json",1);
+//
+//		for (final BleMeshDevice aDevice : devices) {
+//			Event e = new Event(0, new Runnable() {
+//				@Override
+//				public void run() {
+//					AlgorithmPhase1(aDevice);
+//				}
+//			});
+//			insert(e);
+//		}
+//
+//		for (final BleMeshDevice aDevice : devices) {
+//			Event e = new Event(6, new Runnable() {
+//				@Override
+//				public void run() {
+//					aDevice.UpdateRoutingTable();
+//				}
+//			});
+//			insert(e);
+//		}
+//
+//		for (final BleMeshDevice aDevice : devices) {
+//			Event e = new Event(10, new Runnable() {
+//				@Override
+//				public void run() {
+//					DeviceLogger();
+//				}
+//			});
+//			insert(e);
+//		}
+//
+//		sim.doAllEvents();
+//		ObjectMapper mapper = new ObjectMapper();
+//		mapper.setVisibility(JsonMethod.FIELD, Visibility.ANY);
+//		mapper.enable(SerializationConfig.Feature.INDENT_OUTPUT,SerializationConfig.Feature.SORT_PROPERTIES_ALPHABETICALLY);
+//		File jsonLogFile = new File("Logs/NetworkLog.json");
+//		try {
+//			mapper.writeValue(jsonLogFile, simLog);
+//		} catch (JsonGenerationException e) {
+//			e.printStackTrace();
+//		} catch (JsonMappingException e) {
+//			e.printStackTrace();
+//		} catch (IOException e) {
+//			e.printStackTrace();
+//			System.out.println("Done with the experiment");
+//		}
+//		System.out.println("Done with the experiment");
+//	}
+//
 	static void AlgorithmPhase1(final BleMeshDevice aBleDevice) {
 
 		/* Step 1: Generate the network graph */
@@ -258,7 +258,7 @@ public class BleMeshSimulator extends Simulator {
 				.getTopologyCtrlBlock()
 				.updateNeighbourList(
 						txManager.getNeighbouringDevices(aBleDevice));
-		
+
 		if (aBleDevice instanceof BleMeshDeviceRSMN)
 			((BleMeshDeviceRSMN) aBleDevice).ComputeInitalRSM();
 

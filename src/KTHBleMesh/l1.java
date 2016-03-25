@@ -12,6 +12,8 @@ abstract class OrderedSet {
 	abstract int size();
 
 	abstract Comparable remove(Comparable x);
+
+	abstract void flushQ();
 }
 
 class AbstractSimulator {
@@ -20,6 +22,8 @@ class AbstractSimulator {
 	static void insert(Event e) {
 		events.insert(e);
 	}
+
+	static void flushQ() { events.flushQ();}
 
 	Event cancel(Event e) {
 		throw new java.lang.RuntimeException("Method not implemented");

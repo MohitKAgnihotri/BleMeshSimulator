@@ -242,14 +242,14 @@ public class BleMeshRoutingCtrlBlock {
 		} 
 		
 		if (aPacket.getType() == 2) {
-			
+
 			//System.out.println("Received failed packet received on " + device.getDevUniqueId() + " from " + aPacket.getFromAddress());
 			System.out.printf("Received failed packet from =[%d] to Destinatoin=[%d] via Hops=%s\n" ,
 				     aPacket.getFromAddress(), aPacket.getToAddress(),
 				     aPacket.getHops().toString());
-			
+
 			// if there is only 1 bridge, here is the end of network lifetime!!!! Perform the logging!
-			
+
 			int failedDevice = aPacket.getFromAddress();
 			// update the routing table, remove failed device from list of direct and relay nodes
 			List<List<Integer>> directNodes = this.getdirectNodes();
@@ -259,13 +259,12 @@ public class BleMeshRoutingCtrlBlock {
 					directNodesList.remove(index);
 				}
 			}
-			
-			
+
 			if (this.getRelayNodes().contains(failedDevice)) {
 				int index = this.getRelayNodes().indexOf(failedDevice);
 				this.getRelayNodes().remove(index);
 			}
-				
+
 			// find the route(s) containing failed node, and delete that instance from discovered routes
 			List<List<Integer>> routesList = this.getDiscoveredRoute(aPacket.getToAddress(), aPacket.getPreviousDestination());
 			List<Integer> selectedRoute = null;
@@ -277,10 +276,10 @@ public class BleMeshRoutingCtrlBlock {
 					if (aRoute.contains(failedDevice)) {
 						System.out.println("Removing route: " + aRoute.toString());
 						it.remove();
-					} 
+					}
 				}
 			}
-			
+
 			if (routesList!=null) {
 				Iterator<List<Integer>> it = routesList.iterator();
 				while (it.hasNext()) {
@@ -293,10 +292,10 @@ public class BleMeshRoutingCtrlBlock {
 					}
 				}
 			}
-			
+
 			// create a new packet and send it to the destination via selected route
 			if (selectedRoute!=null) {
-				packet = new BleMeshPacket(aPacket.getId()+1, aPacket.getToAddress(), aPacket.getPreviousDestination(), 0);	
+				packet = new BleMeshPacket(aPacket.getId()+1, aPacket.getToAddress(), aPacket.getPreviousDestination(), 0);
 				packet.setType(1);
 				packet.setTtl(1);
 				packet.setRoute(selectedRoute);
@@ -313,15 +312,17 @@ public class BleMeshRoutingCtrlBlock {
 			    }
 			    BleMeshSimulator.simLog.add(
 						new BleMeshDeviceLog(
-								Simulator.now(), 
-								device.getDevUniqueId(), 
-								device.getDevEnergyChar().getEnergySourceType(), 
-								device.getDevEnergyChar().getInitEnergyLevel(), 
-								device.getDevEnergyChar().getCurrEnergyLevel(), 
+								Simulator.now(),
+								device.getDevUniqueId(),
+								device.getDevEnergyChar().getEnergySourceType(),
+								device.getDevEnergyChar().getInitEnergyLevel(),
+								device.getDevEnergyChar().getCurrEnergyLevel(),
 								isDeviceCritical, device.getDevEnergyChar().isDeviceAlive(), isSecondFailure));
-			    
+
 			    if (isSecondFailure && isDeviceCritical)
-			    	System.exit(-1);
+				{
+                    BleMeshSimulator.flushQ();
+				}
 			}
 			return packet;
 		}

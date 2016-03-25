@@ -207,16 +207,20 @@ public class BleMeshDevice {
 			}
 
 			/*
-			 * Check if the following are true: Device is alive Device has not
-			 * Transmitted the packet Device has not already routed the packet
+			 * Check if the following are true:
+			 * Device is alive Device
+			 * Packet with the given Id is received at the node for the first time
+			 * Packet was't transmitted from the node
 			 */
-			if (devEnergyChar.isDeviceAlive()) {
+			if (devEnergyChar.isDeviceAlive()
+					&& !txPackets.contains(packet.getId())
+					&& !rxPackets.contains(packet.getId())) {
+
 				rxPackets.add(packet.getId());
 
 				// do not listen to yourself
 				if (packet.getFromAddress() == devTrafficChar.getAddress()
-						|| packet.getViaAddress() == devTrafficChar
-								.getAddress())
+						|| packet.getViaAddress() == devTrafficChar.getAddress())
 					return;
 
 				// do not process corrupted packet
@@ -228,6 +232,7 @@ public class BleMeshDevice {
 
 				BleMeshPacket aPacket = aTransmission.getPacket();
 				SendPacket(aPacket);
+
 			} else if (devEnergyChar.isDeviceAlive()
 					&& (packet.getToAddress() == devTrafficChar.getAddress())
 					&& (packet.getType() == 0 || packet.getType() == 10)) {
@@ -238,7 +243,7 @@ public class BleMeshDevice {
 								.getAddress())
 					return;
 
-				// do not process corrupte+d packet
+				// do not process corrupted packet
 				if (!transmission.getSuccessFlag())
 					return;
 				/* Received a packet which needs further routing */

@@ -390,7 +390,7 @@
     "devAdd" : 20,
     "devLocX" : 12.080342010465374,
     "devLocY" : 11.895756875790333,
-    "packetsRec" : 10,
+    "packetsRec" : 9,
     "bridgeCnt" : 0,
     "isDeviceCritical" : true,
     "neighbours" : [ {
@@ -509,7 +509,7 @@
     "devAdd" : 18,
     "devLocX" : 10.8676046260492,
     "devLocY" : 20.34608424674889,
-    "packetsRec" : 2,
+    "packetsRec" : 1,
     "bridgeCnt" : 0,
     "isDeviceCritical" : true,
     "neighbours" : [ {
@@ -607,7 +607,7 @@
     "devAdd" : 11,
     "devLocX" : 24.973476393568017,
     "devLocY" : 1.7927483587669313,
-    "packetsRec" : 10,
+    "packetsRec" : 7,
     "bridgeCnt" : 0,
     "isDeviceCritical" : false,
     "neighbours" : [ {
@@ -831,7 +831,7 @@
     "devAdd" : 25,
     "devLocX" : 14.913563932930682,
     "devLocY" : 9.745628972891838,
-    "packetsRec" : 2,
+    "packetsRec" : 1,
     "bridgeCnt" : 0,
     "isDeviceCritical" : true,
     "neighbours" : [ {
@@ -944,7 +944,7 @@
     "devAdd" : 19,
     "devLocX" : 13.279531674490283,
     "devLocY" : 20.933419328053517,
-    "packetsRec" : 10,
+    "packetsRec" : 9,
     "bridgeCnt" : 0,
     "isDeviceCritical" : true,
     "neighbours" : [ {
@@ -1049,7 +1049,7 @@
     "devAdd" : 8,
     "devLocX" : 7.773681627519238,
     "devLocY" : 16.214592055660372,
-    "packetsRec" : 10,
+    "packetsRec" : 7,
     "bridgeCnt" : 0,
     "isDeviceCritical" : false,
     "neighbours" : [ {
@@ -1161,7 +1161,7 @@
     "devAdd" : 24,
     "devLocX" : 25.408560091976256,
     "devLocY" : 7.598238391977774,
-    "packetsRec" : 2,
+    "packetsRec" : 1,
     "bridgeCnt" : 1,
     "isDeviceCritical" : true,
     "neighbours" : [ {
@@ -1257,7 +1257,7 @@
     "devAdd" : 23,
     "devLocX" : 2.7887912737614067,
     "devLocY" : 13.212774630494442,
-    "packetsRec" : 6,
+    "packetsRec" : 5,
     "bridgeCnt" : 1,
     "isDeviceCritical" : true,
     "neighbours" : [ {
@@ -1339,7 +1339,7 @@
     "devAdd" : 22,
     "devLocX" : 5.431968742419734,
     "devLocY" : 18.184758659493795,
-    "packetsRec" : 10,
+    "packetsRec" : 9,
     "bridgeCnt" : 0,
     "isDeviceCritical" : true,
     "neighbours" : [ {
@@ -1575,7 +1575,7 @@
     "devAdd" : 2,
     "devLocX" : 21.521181623278906,
     "devLocY" : 4.676088250558942,
-    "packetsRec" : 6,
+    "packetsRec" : 5,
     "bridgeCnt" : 0,
     "isDeviceCritical" : true,
     "neighbours" : [ {
@@ -1666,7 +1666,7 @@
     "devAdd" : 13,
     "devLocX" : 17.232204204706285,
     "devLocY" : 10.924330430249494,
-    "packetsRec" : 5,
+    "packetsRec" : 4,
     "bridgeCnt" : 0,
     "isDeviceCritical" : false,
     "neighbours" : [ {
@@ -1764,7 +1764,7 @@
     "devAdd" : 7,
     "devLocX" : 25.846371896248797,
     "devLocY" : 15.292336909404852,
-    "packetsRec" : 4,
+    "packetsRec" : 3,
     "bridgeCnt" : 0,
     "isDeviceCritical" : false,
     "neighbours" : [ {
@@ -1834,7 +1834,7 @@
     "devAdd" : 6,
     "devLocX" : 19.952228486442515,
     "devLocY" : 3.2529377136144486,
-    "packetsRec" : 6,
+    "packetsRec" : 5,
     "bridgeCnt" : 0,
     "isDeviceCritical" : false,
     "neighbours" : [ {
@@ -1897,7 +1897,7 @@
     "devAdd" : 1,
     "devLocX" : 15.723679818253292,
     "devLocY" : 22.210331388252463,
-    "packetsRec" : 6,
+    "packetsRec" : 5,
     "bridgeCnt" : 0,
     "isDeviceCritical" : false,
     "neighbours" : [ {
@@ -1974,7 +1974,7 @@
     "devAdd" : 0,
     "devLocX" : 22.456443738183147,
     "devLocY" : 13.236763271163108,
-    "packetsRec" : 6,
+    "packetsRec" : 4,
     "bridgeCnt" : 0,
     "isDeviceCritical" : false,
     "neighbours" : [ {
@@ -2065,7 +2065,7 @@
     "devAdd" : 10,
     "devLocX" : 9.547714088685943,
     "devLocY" : 23.784328547355134,
-    "packetsRec" : 6,
+    "packetsRec" : 4,
     "bridgeCnt" : 0,
     "isDeviceCritical" : false,
     "neighbours" : [ {
@@ -2142,7 +2142,7 @@
     "devAdd" : 4,
     "devLocX" : 8.624223152130986,
     "devLocY" : 5.119353249865598,
-    "packetsRec" : 10,
+    "packetsRec" : 7,
     "bridgeCnt" : 0,
     "isDeviceCritical" : false,
     "neighbours" : [ {
@@ -2184,7 +2184,7 @@
     "devAdd" : 17,
     "devLocX" : 6.064082155578832,
     "devLocY" : 21.388019512557108,
-    "packetsRec" : 6,
+    "packetsRec" : 5,
     "bridgeCnt" : 0,
     "isDeviceCritical" : false,
     "neighbours" : [ {

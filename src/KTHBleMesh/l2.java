@@ -34,6 +34,7 @@ class Simulator extends AbstractSimulator {
 		return time;
 	}
 
+
 	Simulator(long seed, double simDuration) {
 		time = 0.0;
 		events = new ListQueue();

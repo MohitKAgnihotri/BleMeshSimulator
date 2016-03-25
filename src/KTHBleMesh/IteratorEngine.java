@@ -18,7 +18,7 @@ public class IteratorEngine {
     static String folder = "Config/";
     static String logFileName = "Logs/NetworkLog.json";
 
-    private static final int numBridges = 2;
+    private static final int numBridges = 1;
     private static final int[] numDevices = {25};
     // private static final int[] numDevices = {35,45,55,65,75};
     private static final int numDeployments = 1;
@@ -51,6 +51,7 @@ public class IteratorEngine {
                                         @Override
                                         public void run() {
                                             BleMeshSimulator.AlgorithmPhase1(aDevice);
+
                                         }
                                     });
                                     BleMeshSimulator.insert(e);
@@ -66,15 +67,15 @@ public class IteratorEngine {
                                     BleMeshSimulator.insert(e);
                                 }
 
-                                for (final BleMeshDevice aDevice : BleMeshSimulator.devices) {
-                                    Event e = new Event(10, new Runnable() {
-                                        @Override
-                                        public void run() {
-                                            BleMeshSimulator.DeviceLogger();
-                                        }
-                                    });
-                                    BleMeshSimulator.insert(e);
-                                }
+                                /*Insert the logging event for the network*/
+                                {Event e = new Event(10, new Runnable() {
+                                    @Override
+                                    public void run() {
+                                        BleMeshSimulator.DeviceLogger();
+                                    }
+                                });
+                                BleMeshSimulator.insert(e);}
+
 
                                 sim.doAllEvents();
                                 ObjectMapper mapper = new ObjectMapper();

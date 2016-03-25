@@ -33,7 +33,12 @@ class ListQueue extends OrderedSet {
 		return null;
 	}
 
-	public int size() {
+    @Override
+    void flushQ() {
+        elements.clear();
+    }
+
+    public int size() {
 		return elements.size();
 	}
 
